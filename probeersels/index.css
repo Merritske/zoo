@@ -32,6 +32,7 @@ img{
     position: relative;
     top: 200px;
     width: 300px;
+    clip-path: polygon(5% 80% , 70% 10% , 20% 10%, 60% 50% ,100% 50%, 10% 30%, 100% 100%);
 }
 .honeycomb {
     display: flex;
@@ -99,12 +100,12 @@ img{
 }
 
 .honeycomb-cell::before {
-    background: #d6b03d;
+    background: #0919a1;
     transform: scale(1.055);
 }
 
 .honeycomb-cell::after {
-    background: #FFC107;
+    background: #7480f0;
     opacity: 0.5;
     transition: opacity 350ms;
 }
